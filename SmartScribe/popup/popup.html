@@ -1,0 +1,39 @@
+<html>
+    <head> 
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <h1>SmartScribe</h1>
+
+        <form action="#">
+            <label for="lang">Level of correction:</label>
+            <select name="level of correction" id="lvlOfCorrection">
+                <option value="0">Full rewriting of the text</option>
+                <option value="1">Basic spelling and grammar correction</option>
+                <option value="2">Advanced grammar and style suggestions</option>
+            </select>
+        </form>
+
+        <form action="#" id="writing-style-container">
+            <label for="lang">Writing Styles</label>
+            <select name="writing style" id="writing-style">
+                <option value="conversational">Conversational</option>
+                <option value="professional">Professional</option>
+                <option value="persuasive">Persuasive</option>
+                <option value="informative">Informative</option>
+                <option value="humorous">Humorous</option>
+                <option value="scientific">Scientific</option>
+                <option value="instructional">Instructional</option>
+            </select>
+        </form>
+
+        <form>
+            <label for="text">Enter your text:</label>
+            <textarea id="text-input" name="text-input"></textarea>
+          </form>
+
+        <input id="submit-button" type="submit" value="Submit" />
+        <script src="popup.js"></script>
+
+    </body>
+</html>
